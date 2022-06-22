@@ -2,7 +2,7 @@ class Mesh:
     """
     Object which stores and defines the unit cell parameters (number of points and dimensions) and the
     mesh grid of the underlying unit cell. Primarily used to reduce the number of variables which
-    need to be passed to associated meshgrid functions.
+    can to be passed to associated meshgrid functions.
     """
 
     def __init__(self, cell_dims, nx=50, ny=50, nz=50, pbc=[True,True,True], pbc_strict_mode=True):
